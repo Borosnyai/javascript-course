@@ -5,18 +5,18 @@
     height: "180",
     age: "30",
     country: "DE",
-    children: ["Maria","KArla", "Jens"]
+    children: ["Maria","Karla", "Jens"]
 }
 
 var car = {
     engine: "3000",
-    farbe: "Scwarz",
+    color: "Black",
     year: "2025",
     price: "25000"
 }
 */
 /******************************************************************************** */
-/*Objekte-eigenschaften auslesen*/
+/* Read object properties */
 
 var human = {
     name: "Jannick",
@@ -26,12 +26,12 @@ var human = {
     children: ["Maria","Karla", "Jen"]
 
 }
-// als property einschreiben
+// access the value by its property name
 console.log(human["age"])
 console.log(human.children)
 
 /********************************************************************************* */
-/*Objekt-eigenschaftenverändern*/
+/* Change object properties */
 var human = {
     name: "Jannick",
     height: "180",
@@ -50,7 +50,7 @@ console.log(human)
 
 human.age = "thirty";
 console.log(human)
-// wir holen vom children eins das age property.
+// we get the age property of the second child.
 console.log(human.children[1].age)
 
 

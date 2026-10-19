@@ -15,18 +15,18 @@ console.log(random);
 */
 /********************************************************** */
 /*
-// Das erste Element im Array liegt auf Index 0
-fruits = ["Aplpee", "Banana", "Orange"];
+// The first element of the array is at index 0
+fruits = ["Apple", "Banana", "Orange"];
 console.log(fruits);
 fruits[0] = "Apple";
 console.log(fruits);
-// undefined, ich weiß es wovon du redest.
+// undefined: there is no element at this index
 console.log(fruits[3]);
 
 console.log(fruits[1]);
 */
 /************************************************************************ */
-/** Die Array length-Property*/
+/** The array length property */
 //
 /*
 console.log(fruits.length);
@@ -35,11 +35,11 @@ console.log(fruits[fruits.length - 1]);
 fruits[2];
 fruits[fruits.length - 1];
 
-//elemente zum Array hinzufügen
+// add elements to the array
 
 var names = ["John", "Bill", "Martin"];
 console.log(names);
-//reinschieben, dazufügen
+// push: add to the end
 names.push("Karin");
 console.log(names);
 
@@ -49,7 +49,7 @@ names_2.push("Tim");
 console.log(names_2);
 */
 /*********************************************************************** */
-/*Elemente an bestimmter Stelle im Array einfügen*/
+/* Insert elements at a specific position in the array */
 /*
 var numbers = [1,2,3,4,5,6];
 
@@ -64,7 +64,7 @@ names.splice(2, 0,"c")
 console.log(names);
 */
 /************************************************************************* */
-/*Mehrere Arrays verbinden/verketten* */
+/* Join/concatenate several arrays */
 /*
 var numbers = [1,2,3,4]
 var numbersTwo = [5,6,7,8]
@@ -92,12 +92,12 @@ console.log(newArray)
 */
 
 /*********************************************************************** */
-/**Elemente aus Array löschen */
+/** Remove elements from an array */
 /*
 var numbers = [1,2,3,4,5,6,7,8,9]
 // remove the first element
 numbers.shift()
-// beginnen wir wir mit zweiten element und entren wir 3 elemente
+// start at the second element and remove 3 elements
 numbers.splice(2, 3)
 
 var numbers = [1,2,3,4,5,6,7,8,9]
@@ -116,11 +116,11 @@ console.log(numbers)
 
 */
 /***************************************************************************** */
-/**element/index im Array finden */
+/** Find an element/index in an array */
 /*
 var numbers = [1,2,3,4,5,6,7,8,9]
 
-// wir wollen überprüfen, ob einen element 4 gibt.
+// we want to check whether the array contains the element 4.
 var result = numbers.find(element => element == 4)
 
 console.log(result)
@@ -135,7 +135,7 @@ var resultThree = numbersThree.lastIndexOf(4)
 console.log(resultThree)
 */
 /***************************************************************************** */
-/*Arrays sortieren bzw. umdrehen*/
+/* Sort or reverse arrays */
 
 var names = ["John", "Marie","Andreas", "Tina"]
 names.sort()
